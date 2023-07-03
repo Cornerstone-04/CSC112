@@ -1,16 +1,13 @@
-<!-- Pseudo Code fir Quadratic formula solution -->
-## Pseudo Code
+# Assignments
 
-1. Start.
-2. Input a, b, c.
-3. Let d = (b * b) - (4 * a * c).
-4. if(desc > 0)
-    <br> 4.1 x1 = (-b + sqrt(desc))/(2 * a)
-    <br> 4.2 x2 = (-b - sqrt(desc))/(2 * a)
-    <br> 4.3 output x1, x2.
-5. if(desc = 0)
-    <br> 5.1 x1 = x2 = -b/(2 * a).
-    <br> 5.2 output x1 = x2 = x.
-6. if(desc < 0)
-    <br> 6.1 output "Complex roots".
-7. Stop.
+## Assignment 1
+
+- Develop a c++ program that computes the total payment for purchases made by a customer given the following discount amount based on the following purchases.
+
+- If amount is b/w 200k and 1m, discount = 3%.
+
+- If amount is above 1m, discount = 7%.
+
+## Assignment 2
+
+- Modify assignment 1 in such a way that the user can use it for as many customers as possible without shutting down the program.
