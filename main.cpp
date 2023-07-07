@@ -17,7 +17,7 @@ int main()
     cout << "Enter coefficient c =";
     cin >> c;
 
-    // initialise desc formula
+    // initialise desc formula1
     desc = (b * b) - (4 * a * c);
 
     // check if desc is greater than 0

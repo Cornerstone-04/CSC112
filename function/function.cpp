@@ -2,15 +2,12 @@
 
 using namespace std;
 
+double addUp(double x, double y)
+{
+    return (x + y);
+}
+
 int main()
 {
-
-    double addUp(double x, double y)
-    {
-        cout << "enter value for x = ";
-        cin >> x;
-        cout << "enter value for y = ";
-        cin >> y;
-        return (x + y);
-    }
+    addUp(2,3);
 }
