@@ -2,7 +2,7 @@
 using namespace std;
 
 // create function to calculate total payment
-double calculateTotalPayment(double amount)
+double calculateTotalAmount(double amount)
 {
     // declare discount and total amount variables
     double discount, totalAmount;
@@ -37,7 +37,7 @@ int main()
         cin >> purchaseAmount;
 
         // calculate total amount after discount
-        totalAmount = calculateTotalPayment(purchaseAmount);
+        totalAmount = calculateTotalAmount(purchaseAmount);
 
         // display total amount
         cout << "Total amount after discount: " << totalAmount << endl;
