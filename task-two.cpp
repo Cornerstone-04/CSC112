@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-// create function to calculate total payment
+// create a function to calculate total payment
 double calculateTotalAmount(double amount)
 {
     // declare discount and total amount variables
@@ -20,7 +20,6 @@ double calculateTotalAmount(double amount)
     {
         discount = 0.0;
     }
-
     // subtract discount from total amount for new amount
     return totalAmount = amount - (amount * discount);
 }
@@ -28,7 +27,7 @@ double calculateTotalAmount(double amount)
 int main()
 {
 
-    // initialise loop to continue program
+    // initialize loop to continue the program
     for (char choice = 'Y'; choice == 'Y' || choice == 'y';)
     {
         // prompt user to enter purchase amount
@@ -36,10 +35,10 @@ int main()
         cout << "Enter the purchase amount: ";
         cin >> purchaseAmount;
 
-        // calculate total amount after discount
+        // calculate the total amount after discount
         totalAmount = calculateTotalAmount(purchaseAmount);
 
-        // display total amount
+        // display the total amount
         cout << "Total amount after discount: " << totalAmount << endl;
 
         // prompt user to continue or end program

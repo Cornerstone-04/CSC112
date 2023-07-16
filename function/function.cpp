@@ -2,12 +2,24 @@
 
 using namespace std;
 
-double addUp(double x, double y)
+int determineMax(int &x, int &y)
 {
-    return (x + y);
+    if (x > y)
+        return x;
+    return y;
 }
 
 int main()
 {
-    addUp(2,3);
+    int x, y;
+
+    cout << "Enter first number: ";
+    cin >> x;
+
+    cout << "Enter second number: ";
+    cin >> y;
+
+    // int max = determineMax(x, y);
+
+    cout << "Max is " << determineMax(x, y);
 }

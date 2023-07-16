@@ -23,3 +23,23 @@
 
 - Terminates the execution of the function.
 - It returns the value to the point where the function is called.
+
+
+#### NB: Your return parameters must match/corresponding with the declared function parameters.
+
+
+### Function Declaration
+
+- This is the specification of a function header terminated with a semi-colon.
+- It is used when you need to call a function before defining it.
+
+### Parameter Passing
+
+- By value: The value of the actual parameter is copied into the formal parameter (the formal and the actual parameter do not share memory location).
+- By reference: The memory address is passed instead of the value.
+
+    - By alias: done by using an alternative name. Used when you need to pass more than one value to a function.
+
+### Declaring an Alias
+
+- Done by using & + name.

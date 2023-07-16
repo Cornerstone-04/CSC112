@@ -11,3 +11,23 @@
 ## Assignment 2
 
 - Modify assignment 1 in such a way that the user can use it for as many customers as possible without shutting down the program.
+
+## Exercise 1
+
+- Write a function that determines the number of days in February, given that only leap years have 29 days in Feb, otherwise it's 28 days.
+
+## Exercise 2
+
+- Write a function that changes a 24-hour time format to a 12-hour format.
+
+
+## Assignment 3
+
+### Question 1
+
+- Write a C++ program that computes the area and perimeter of any time of parallelogram of choice.
+- Define separate functions for the computation of the area and perimeter.
+
+### Question 2
+
+- Write a C++ function that computes the standard deviation of four scores, and write a function to call it.
