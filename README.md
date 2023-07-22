@@ -20,7 +20,6 @@
 
 - Write a function that changes a 24-hour time format to a 12-hour format.
 
-
 ## Assignment 3
 
 ### Question 1
@@ -31,3 +30,14 @@
 ### Question 2
 
 - Write a C++ function that computes the standard deviation of four scores, and write a function to call it.
+
+## Assignment 4
+
+- Write a recursive function that displays a set of integers in the reverse order the integers are entered.
+
+## Assignment 5
+
+<ol>
+<li>Develop a full program for all functions developed today and display the result.</li>
+<li>Write a function that determines the product of two matrices, then write a program that invokes the function.</li>
+</ol>

@@ -20,3 +20,7 @@
 - Scope of a variable is the region it is exists.
 
 - Static variables retain their value even when out of scope.
+
+
+
+NB: Initialisation is assigning a value to a variable at the point of decalration.
