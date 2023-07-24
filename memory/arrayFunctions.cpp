@@ -20,6 +20,8 @@ int main()
     int scores[] = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
     int sum = sumOfContent(scores, 10);
     cout << sum;
+
+    return 0;
 }
 
 // a pointer is the address of a variable
