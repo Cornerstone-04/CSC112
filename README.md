@@ -41,3 +41,7 @@
 <li>Develop a full program for all functions developed today and display the result.</li>
 <li>Write a function that determines the product of two matrices, then write a program that invokes the function.</li>
 </ol>
+
+## Assignment 6
+
+- Define a class for employee, person, permanent staff and casual staff.
