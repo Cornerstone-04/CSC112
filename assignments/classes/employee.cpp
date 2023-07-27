@@ -4,32 +4,29 @@ using namespace std;
 class Employee
 {
 public:
-    string firstName;
-    string lastName;
-    string employeeId;
+    string firstName, lastName, employeeId;
     int age;
     double salary;
 
-    Employee(string first_name, string last_name, string employee_id, int age, double salary);
+    Employee(string first_name, string last_name, string employee_id, int employee_age, double annual_salary);
     void displayDetails();
 };
 
-Employee::Employee(string first_name, string last_name, string employee_id, int age, double salary)
+Employee::Employee(string first_name, string last_name, string employee_id, int employee_age, double annual_salary)
 {
     firstName = first_name;
     lastName = last_name;
     employeeId = employee_id;
-    age = age;
-    salary = salary;
+    age = employee_age;
+    salary = annual_salary;
 };
 
 void Employee::displayDetails()
 {
-    cout << firstName << "\n"
-         << lastName << "\n"
-         << age << "\n"
-         << employeeId << "\n"
-         << salary << "\n";
+    cout << "Full Name: " << firstName << " " << lastName << "\n"
+         << "Age: " << age << "\n"
+         << "Employee ID: " << employeeId << "\n"
+         << "Monthly Salary($): " << salary << "\n";
 };
 
 int main()
