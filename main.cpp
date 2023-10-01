@@ -1,26 +1,33 @@
 #include <iostream>
 using namespace std;
 
+class Worker
+{
+private:
+    int salary;
+
+public:
+    void setSalary(int money)
+    {
+        salary = money;
+    }
+
+    int getSalary()
+    {
+        return salary;
+    }
+};
+
 int main()
 {
-    // string name;
-    // cout << "enter name: ";
-    // cin >> name;
-    // cout << name;
+    // string food = "rice";
+    // string &meal = food;
 
-    // constant
-    const string name = "Tolu";
-    int age = 10;
+    // cout << food << endl
+    //      << meal;
 
-    age = name == "Barry" ? 18 : 19;
-
-    cout << age;
-    /**
-     * bool check; //declaration
-        check = true; //initialisation
-    */
-
-    bool check = true;
-
+    Worker employee;
+    employee.setSalary(30000);
+    cout << employee.getSalary();
     return 0;
 }

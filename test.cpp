@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <iostream>
 using namespace std;
 
 int array1[] = {1200, 200, 2300, 1230, 1543};

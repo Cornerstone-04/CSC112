@@ -1,18 +1,10 @@
-#include <iostream>
-using namespace std;
-void swap(int &a, int &b);
-int main()
-{
-    int a = 5, b = 10;
-    swap(a, b);
-    cout << "In main " << a << " " << b << endl;
-    return 0;
-}
-void swap(int &a, int &b)
-{
-    int temp;
-    temp = a;
-    a = b;
-    b = temp;
-    cout << "In swap " << a << " " << b << endl;
-}
+// #include <iostream>
+// using namespace std;
+
+// int main(){
+//     char arr[10]={'A', 'B', 'C','D', 'E', 'F', 'G', 'H','I','J'};
+//     char *p =arr;
+//     for(i = 0; i<10; i++)
+//     cout<< *(p+1)
+//     return 0;
+// }
